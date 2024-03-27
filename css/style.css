@@ -1,0 +1,125 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 100vh;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover, nav a:focus {
+    text-decoration: underline;
+}
+
+nav a:visited {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.current {
+    color: navy;
+    text-decoration: underline;
+    /* background-color: lightgrey;
+    font-weight: bold; */
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin-right: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #3571c4;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+footer {
+    background-color: #3571c4;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+#content-wrap {
+    padding-bottom: 3.5rem;
+}
+  
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.5rem;
+  }
+
+table, th, td {
+    border: 1px solid;
+    margin: 15px;
+    padding: 8px;
+  }
+
+.general td:nth-child(odd) {
+    background-color: #f4cccc;
+}
+
+.work td:nth-child(odd) {
+    background-color: #d9ead3;
+}
+
+.iapa_impact td:nth-child(odd) {
+    background-color: #c9daf8;
+}
+
+td:nth-child(even) {
+    background-color: #efefef;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; Adjust as needed */
+}
+
+.table-container table {
+    width: 800px;
+}
+
+.documentation {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 3.5rem;
+    background-color: #3571c4;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 800px) {
+    .table-container table {
+        width: 300px;
+    }
+}

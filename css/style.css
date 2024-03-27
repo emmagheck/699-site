@@ -54,6 +54,11 @@ h1 {
     font-size: xx-large;
 }
 
+h2 {
+    text-align: center;
+    font-size: x-large;
+}
+
 footer {
     background-color: #3571c4;
     color: white;
